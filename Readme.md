@@ -15,6 +15,7 @@ optional arguments:
 # Examples
 
 + Make our life easier:
+
     ` python tada.py -u domain.com`
     
     ` python tada.py -a listdomain.txt`
