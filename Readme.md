@@ -14,10 +14,12 @@ optional arguments:
 
 # Examples
 
-+ Make our life easier:
++ Single URL:
 
     ` python tada.py -u domain.com`
-    
+
++ Scan with a list:
+
     ` python tada.py -a listdomain.txt`
 
 # Functions
