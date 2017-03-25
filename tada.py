@@ -64,3 +64,4 @@ if list is not None:
                 os.system("nmap -PN -n -F -T4 -sV --version-intensity 5 -A "+line+" -oX "+nmap_file)
                 os.system("mv "+file+" database/")
                 os.system("mv "+nmap_file+" database/")
+    print colored("\nCheck output from database/ folder",'red')

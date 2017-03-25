@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.40 scan initiated Sat Mar 25 22:48:10 2017 as: nmap -PN -n -F -T4 -sV -&#45;version-intensity 5 -A -oX 2wy.info.nmap.xml 2wy.info -->
+<nmaprun scanner="nmap" args="nmap -PN -n -F -T4 -sV -&#45;version-intensity 5 -A -oX 2wy.info.nmap.xml 2wy.info" start="1490474890" startstr="Sat Mar 25 22:48:10 2017" version="7.40" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="100" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1490474890" endtime="1490474904"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="84.200.69.21" addrtype="ipv4"/>
+<hostnames>
+<hostname name="2wy.info" type="user"/>
+</hostnames>
+<ports><extraports state="filtered" count="96">
+<extrareasons reason="no-responses" count="96"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="6.6.1p1 Ubuntu 2ubuntu2.8" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.6.1p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 ea:bd:e5:57:a3:20:b3:34:2c:0c:1c:8f:6e:5e:90:b6 (DSA)&#xa;  2048 26:1c:27:f8:36:c6:7a:c3:ae:c3:95:20:8c:10:57:ac (RSA)&#xa;  256 50:66:cb:86:62:ae:6a:09:1a:59:63:e7:37:83:64:c8 (ECDSA)"><table>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024.0</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAOm0shccf3ptNPN/HgYMrgOHltgbNm59DUrrKqGGtWITtylPN55J8VnFqjFrzg5XoOfy3/0WDxzO0QYFPF92s5i6NOnBVMnedZ4N6mnKaGJZwiTr1mYCccTLb6xlqvkybDV2/uCBrk4TwcPdo/AzpUlIsLodjIvnpbW+qKDlBJBbAAAAFQCXxH00qBW3Eu+XB7UR/gLaehsFYQAAAIApA1cp2xzcC6Ca5XLHSOyaVIGtNQIrgc4pxW4oYd0POs4D7Y5Ig31Gibd6bP+N6lZKIl3NqgMBHfYIHtonDqx/VJFgbGMM5CDQxoM8kh7glOLNkQRymRwnbvXRtXJutStZ8OEMumIImgCWIarFsKfP1K+DgxdYpLP1aMO1eHVovgAAAIEAv7Yw9leGaF7VPqxWr+wGukC+WB5J4tqVnvPqkrUprS7g+RS5aJwImOsitH5eHsKIrAYS3bao3goX0f9RhynfDHVzA98bvhuZoV/NRwoPbAJXqf5OC6+CEHwBs5kgjuy/9wvXZCW6xqsFpHD70jbS/AviNoP4mjeUiaHhcgUAKmE=</elem>
+<elem key="fingerprint">eabde557a320b3342c0c1c8f6e5e90b6</elem>
+</table>
+<table>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048.0</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCidjGEiZW2w2OYrCo74Dxq5MsUWSCQ+h7ut+D1SS6m+CmzF7RukYpsaLMyzEpX7Gs1FXtW9bbMeHoaBN7SEu5n3eRYpglWC6/bshaUbsAwECb+AqXgk1w/P5bk9ESKS5N45u878NkAB9QJecP+HSZKWlTkZ/A6dxe5oXsQF/w1xD7wT6+YoUU5/3vEz0B+K3NRN0i3esr2eC8DzlU97RVeYKMKj9ekIKMYa5Sey9IazzMfJrjk7Ev4Yqy2kOTe16+wC9uncS3+diUiTcIVTDRzwfVOqbthLoJlR4leXQnps5km6Rix8/O7i28xOL/YSzYdY+X5zgW4j12l7Ty+0zYl</elem>
+<elem key="fingerprint">261c27f836c67ac3aec395208c1057ac</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKkj3gUC9WGG6+/+VZH7tSGYR85lkQt/oOIdh6XiNjSBPAOVvIdjAJ0ETDXkym2cM1kIqtH+PY+kDw410UcAk6k=</elem>
+<elem key="fingerprint">5066cb8662ae6a091a5963e7378364c8</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="25"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.7" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.7</cpe></service><script id="http-robots.txt" output="1 disallowed entry &#xa;/"/><script id="http-title" output="We were young &amp;#8211; After 50 years, we won&amp;#039;t regret wha..."><elem key="title">We were young &amp;#8211; After 50 years, we won&amp;#039;t regret what we have done!</elem>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" tunnel="ssl" method="table" conf="3"/><script id="http-ls" output="Volume /&#xa;SIZE  TIME              FILENAME&#xa;-     2016-12-22 16:44  2wy.info/&#xa;-     2016-12-22 17:46  dinhlong/&#xa;-     2017-01-17 20:34  enderphan/&#xa;-     2016-12-20 19:06  html/&#xa;-     2017-03-10 22:29  ieltsdl/&#xa;-     2017-03-10 23:11  tailieudinhlong/&#xa;-     2017-03-08 14:12  upload/&#xa;-     2017-03-08 14:12  upload/private/&#xa;-     2017-03-08 14:12  upload/public/&#xa;&#xa;"><table key="volumes">
+<table>
+<table key="files">
+<table>
+<elem key="time">2016-12-22 16:44</elem>
+<elem key="filename">2wy.info/</elem>
+<elem key="size">- </elem>
+</table>
+<table>
+<elem key="time">2016-12-22 17:46</elem>
+<elem key="filename">dinhlong/</elem>
+<elem key="size">- </elem>
+</table>
+<table>
+<elem key="time">2017-01-17 20:34</elem>
+<elem key="filename">enderphan/</elem>
+<elem key="size">- </elem>
+</table>
+<table>
+<elem key="time">2016-12-20 19:06</elem>
+<elem key="filename">html/</elem>
+<elem key="size">- </elem>
+</table>
+<table>
+<elem key="time">2017-03-10 22:29</elem>
+<elem key="filename">ieltsdl/</elem>
+<elem key="size">- </elem>
+</table>
+<table>
+<elem key="time">2017-03-10 23:11</elem>
+<elem key="filename">tailieudinhlong/</elem>
+<elem key="size">- </elem>
+</table>
+<table>
+<elem key="time">2017-03-08 14:12</elem>
+<elem key="filename">upload/</elem>
+<elem key="size">- </elem>
+</table>
+<table>
+<elem key="time">2017-03-08 14:12</elem>
+<elem key="filename">upload/private/</elem>
+<elem key="size">- </elem>
+</table>
+<table>
+<elem key="time">2017-03-08 14:12</elem>
+<elem key="filename">upload/public/</elem>
+<elem key="size">- </elem>
+</table>
+</table>
+<elem key="volume">/</elem>
+</table>
+</table>
+<table key="total">
+<elem key="files">9</elem>
+<elem key="bytes">0</elem>
+</table>
+</script><script id="http-title" output="Index of /"><elem key="title">Index of /</elem>
+</script></port>
+</ports>
+<times srtt="31829" rttvar="21291" to="116993"/>
+</host>
+<runstats><finished time="1490474904" timestr="Sat Mar 25 22:48:24 2017" elapsed="14.75" summary="Nmap done at Sat Mar 25 22:48:24 2017; 1 IP address (1 host up) scanned in 14.75 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

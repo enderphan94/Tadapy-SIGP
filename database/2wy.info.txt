@@ -1,0 +1,170 @@
+===============WHOIS===============
+Domain Name: 2WY.INFO
+Registry Domain ID: D503300000029548411-LRMS
+Registrar WHOIS Server:
+Registrar URL: http://www.ascio.com
+Updated Date: 2017-02-18T20:31:22Z
+Creation Date: 2016-12-20T15:47:26Z
+Registry Expiry Date: 2017-12-20T15:47:26Z
+Registrar Registration Expiration Date:
+Registrar: Ascio Technologies, Inc. Danmark - Filial af Ascio technologies, Inc. USA
+Registrar IANA ID: 106
+Registrar Abuse Contact Email: abuse@ascio.com
+Registrar Abuse Contact Phone: +44.2070159370
+Reseller:
+Domain Status: ok https://icann.org/epp#ok
+Registry Registrant ID: C196799286-LRMS
+Registrant Name: Loc Phan Van
+Registrant Organization:
+Registrant Street: Akadeemia
+Registrant City: Tallinn
+Registrant State/Province: Estonia
+Registrant Postal Code: 12616
+Registrant Country: EE
+Registrant Phone: +372.59111421
+Registrant Phone Ext:
+Registrant Fax:
+Registrant Fax Ext:
+Registrant Email: weintome@gmail.com
+Registry Admin ID: C196799287-LRMS
+Admin Name: Loc Phan Van
+Admin Organization:
+Admin Street: Akadeemia
+Admin City: Tallinn
+Admin State/Province: Estonia
+Admin Postal Code: 12616
+Admin Country: EE
+Admin Phone: +372.59111421
+Admin Phone Ext:
+Admin Fax:
+Admin Fax Ext:
+Admin Email: weintome@gmail.com
+Registry Tech ID: C196799288-LRMS
+Tech Name: Loc Phan Van
+Tech Organization:
+Tech Street: Akadeemia
+Tech City: Tallinn
+Tech State/Province: Estonia
+Tech Postal Code: 12616
+Tech Country: EE
+Tech Phone: +372.59111421
+Tech Phone Ext:
+Tech Fax:
+Tech Fax Ext:
+Tech Email: weintome@gmail.com
+Registry Billing ID: C196799289-LRMS
+Billing Name: Media Hostmaster Zone
+Billing Organization: Zone Media LLC
+Billing Street: Lootsa 5
+Billing City: Tallinn
+Billing State/Province:
+Billing Postal Code: 11415
+Billing Country: EE
+Billing Phone: +372.6886886
+Billing Phone Ext:
+Billing Fax:
+Billing Fax Ext:
+Billing Email: info@zone.ee
+Name Server: NS2.ZONE.EE
+Name Server: NS3.ZONEDATA.NET
+Name Server: NS.ZONE.EU
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2017-03-25T20:45:32Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+Access to AFILIAS WHOIS information is provided to assist persons in determining the contents of a domain name registration record in the Afilias registry database. The data in this record is provided by Afilias Limited for informational purposes only, and Afilias does not guarantee its accuracy.  This service is intended only for query-based access. You agree that you will use this data only for lawful purposes and that, under no circumstances will you use this data to(a) allow, enable, or otherwise support the transmission by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising or solicitations to entities other than the data recipient's own existing customers; or (b) enable high volume, automated, electronic processes that send queries or data to the systems of Registry Operator, a Registrar, or Afilias except as reasonably necessary to register domain names or modify existing registrations. All rights reserved. Afilias reserves the right to modify these terms at any time. By submitting this query, you agree to abide by this policy.
+===============DIG and HOST LIST===============
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> 2wy.info
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27730
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;2wy.info.			IN	A
+
+;; ANSWER SECTION:
+2wy.info.		3359	IN	A	84.200.69.21
+
+;; Query time: 140 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: Sat Mar 25 22:46:32 EET 2017
+;; MSG SIZE  rcvd: 53
+
+===============DNS enumeration===============
+dnsenum.pl VERSION:1.2.4
+[1;34m
+-----   2wy.info   -----
+[0m
+
+Host's addresses:
+__________________
+
+[0m2wy.info.                                3358     IN    A        84.200.69.21
+
+
+Name Servers:
+______________
+
+[0mns3.zonedata.net.                        6813     IN    A        90.191.225.242
+ns2.zone.ee.                             1616     IN    A        194.204.49.1
+ns.zone.eu.                              2411     IN    A        217.146.66.65
+
+
+Mail (MX) Servers:
+___________________
+
+[0m
+
+Trying Zone Transfers and getting Bind Versions:
+_________________________________________________
+
+[0m
+Trying Zone Transfer for 2wy.info on ns3.zonedata.net ... 
+
+Trying Zone Transfer for 2wy.info on ns.zone.eu ... 
+
+Trying Zone Transfer for 2wy.info on ns2.zone.ee ... 
+
+
+Brute forcing with tools/dns.txt:
+__________________________________
+
+[0mupload.2wy.info.                         3599     IN    A        84.200.69.21
+www.2wy.info.                            3599     IN    CNAME     2wy.info.
+2wy.info.                                3598     IN    A        84.200.69.21
+
+
+Performing recursion:
+______________________
+
+[0m
+ ---- Checking subdomains NS records ----
+2wy.info.                                542      IN    NS       ns.zone.eu.
+2wy.info.                                542      IN    NS       ns2.zone.ee.
+2wy.info.                                542      IN    NS       ns3.zonedata.net.
+
+
+2wy.info class C netranges:
+____________________________
+
+[0m 84.200.69.0/24
+
+
+Performing reverse lookup on 256 ip addresses:
+_______________________________________________
+
+[0m
+0 results out of 256 IP addresses.
+
+
+2wy.info ip blocks:
+____________________
+
+[0m
+done.
