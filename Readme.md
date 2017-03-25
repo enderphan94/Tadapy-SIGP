@@ -1,4 +1,22 @@
 Tadaypy - Smart Information Gathering Python (SIGP)
+
+# Usage
+
+usage: tada.py [-h] [-a ALL] [-u URL]
+
+optional arguments:
+  -h, --help         show this help message and exit
+  -a ALL, --all ALL  list of domain names
+  -u URL, --URL URL  Enter a domain name
+
+# Examples
+
+Make our life easier:
+
+    ` python tada.py -u domain.com`
+    
+    ` python tada.py -a listdomain.txt`
+
 # Functions
 ## WHO IS
 
@@ -64,7 +82,6 @@ Because it uses DNS primarily you will often find mis-configured networks that l
 
 5) prohibits the dynamic scan delay from exceeding 10 ms for TCP ports
 
-# Usage
 
 
 
