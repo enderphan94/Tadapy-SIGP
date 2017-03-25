@@ -5,16 +5,17 @@ Tadaypy - Smart Information Gathering Python (SIGP)
 usage: tada.py [-h] [-a ALL] [-u URL]
 
 optional arguments:
+
   -h, --help         show this help message and exit
+  
   -a ALL, --all ALL  list of domain names
+  
   -u URL, --URL URL  Enter a domain name
 
 # Examples
 
 Make our life easier:
-
     ` python tada.py -u domain.com`
-    
     ` python tada.py -a listdomain.txt`
 
 # Functions
