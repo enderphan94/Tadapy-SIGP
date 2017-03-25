@@ -20,7 +20,7 @@ optional arguments:
 
 + Scan with a list:
 
-    ` python tada.py -a listdomain.txt`
+    ` python tada.py -a domain.txt`
 
 # Functions
 ## WHO IS
